@@ -1,0 +1,25 @@
+#summary How to get started
+
+= Installation =
+
+  # Get a binary and/or source tarball from the [http://code.google.com/p/boilerpipe/downloads/list Downloads page]
+  # Extract the files somewhere.
+  # Add `boilerpipe-1.0.jar` to your Java classpath
+
+= Usage =
+
+Once you have boilerpipe on your classpath, extracting the "main" content from a Web page is really simple:
+
+{{{
+   URL url = new URL("http://www.example.com/some-location/index.html");
+   String text = DefaultExtractor.INSTANCE.getText(url);
+}}}
+
+
+Please also have a look at the [http://code.google.com/p/boilerpipe/source/browse/#svn/tags/BOILERPIPE_1_0_0/boilerpipe-core/src/demo/de/l3s/boilerpipe/demo demo classes].
+
+Besides [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/DefaultExtractor.html DefaultExtractor] there are other extractors that may be more suitable for particular content scenarios. For example, [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/ArticleExtractor.html ArticleExtractor] adds some heuristics to extract the main content from a news page.
+
+There are also other ways to call the Extractor (using `Reader`, `InputSource`, `String` etc.).
+
+See the [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/index.html API Javadocs] for details.
