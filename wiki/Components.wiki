@@ -1,0 +1,12 @@
+#summary Components of the Boilerpipe API
+
+= Introduction =
+
+Boilerpipe consists of the following components:
+
+  # an HTML parser that transforms HTML into an internal text-only document model supporting "blocks" of text.
+  # several Filter components analyze and tag these text blocks
+  # extractors consisting of one or more Filters. Such "pipelines" take the parsed document object and distill the main textual content from it
+  # an HTML highlighter to visually inspect the extracted main content within a copy of the input page.
+
+= To be continued... =
