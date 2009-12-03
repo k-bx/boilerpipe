@@ -28,8 +28,7 @@ Filters are applied to a `TextDocument` and usually iterate once over all contai
 Boilerpipe's Filters are grouped into the following packages:
 
   # `simple` Very basic Filters
-  # `english` Filters that are probably specific to English text
-    (they might work for other Western languages, but some parameters probably need to be changed)
+  # `english` Filters that are probably specific to English text (they might work for other Western languages, but some parameters probably need to be changed)
   # `heuristics` Filters that simply seem to work well but have not yet been further explored from a theoretic perspective
 
 == Extractors ==
