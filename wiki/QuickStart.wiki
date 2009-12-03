@@ -3,7 +3,13 @@
 = Installation =
 
   # Get a binary and/or source tarball from the [http://code.google.com/p/boilerpipe/downloads/list Downloads page]
-  # Extract the files somewhere.
+
+  # Extract the files somewhere
+{{{
+    tar xvzf boilerpipe-1.0-bin.tar.gz
+    tar xvzf boilerpipe-1.0-src.tar.gz
+}}}
+
   # Add `boilerpipe-1.0.jar` to your Java classpath
 
 = Usage =
