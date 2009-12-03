@@ -13,13 +13,34 @@ Boilerpipe consists of the following components:
 
 == HTML Parser ==
 
+The HTML Parser is based upon [http://nekohtml.sourceforge.net/ CyberNeko] 1.9.13. It is called internally from within the Extractors.
+
+The parser takes an HTML document and transforms it into a `TextDocument`, consisting of one or more `TextBlock`s. It knows about specific HTML elements (SCRIPT, OPTION etc.) that are ignored automatically.
+
+Each `TextBlock` stores a portion of text from the HTML document. Initially (after parsing) almost every TextBlock represents a text section from the HTML document, except for a few inline elements that do not separate per defintion (for example `<A>` anchor tags).
+
+The `TextBlock` objects also store shallow text statistics for the block's content such as the number of words and the number of words in anchor text.
+
 == Filters ==
+
+Filters are applied to a `TextDocument` and usually iterate once over all contained `TextBlock`s. They may mark individual `TextBlock`s as _content_/_boilerplate_ or assign additional tags (textual labels) to it.
+
+Boilerpipe's Filters are grouped into the following packages:
+
+  # `simple` Very basic Filters
+  # `english` Filters that are probably specific to English text
+    (they might work for other Western languages, but some parameters probably need to be changed)
+  # `heuristics` Filters that simply seem to work well but have not yet been further explored from a theoretic perspective
 
 == Extractors ==
 
+Extractors consist of one or more pipelined Filters. They are used to get the content of a webpage. Several different Extractors exist, ranging from a generic `DefaultExtractor` to extractors specific for news article extraction (`ArticleExtractor`).
+
 == HTML Highlighter ==
 
-= Algorithmic Background =
+For showcase and debugging purposes you can use the `HTMLHighlighter` class. It returns a modified HTML that shows the extracted main content marked yellow.
+
+= Theoretical Background =
 
 To understand why boilerpipe works read the paper "[http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Boilerplate Detection using Shallow Text Features]" by Christian Kohlschütter et al., presented at WSDM 2010 -- The Third ACM International Conference on Web Search and Data Mining New York City, NY USA.
 
