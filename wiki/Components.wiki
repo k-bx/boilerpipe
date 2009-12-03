@@ -11,6 +11,8 @@ Boilerpipe consists of the following components:
 
 = Components =
 
+See the [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/index.html API Javadocs] for details.
+
 == HTML Parser ==
 
 The HTML Parser is based upon [http://nekohtml.sourceforge.net/ CyberNeko] 1.9.13. It is called internally from within the Extractors.
