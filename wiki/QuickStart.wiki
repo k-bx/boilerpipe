@@ -18,7 +18,7 @@ Once you have boilerpipe on your classpath, extracting the "main" content from a
 
 Please also have a look at the [http://code.google.com/p/boilerpipe/source/browse/#svn/tags/BOILERPIPE_1_0_0/boilerpipe-core/src/demo/de/l3s/boilerpipe/demo demo classes].
 
-Besides [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/DefaultExtractor.html DefaultExtractor] there are other extractors that may be more suitable for particular content scenarios. For example, [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/ArticleExtractor.html ArticleExtractor] adds some heuristics to extract the main content from a news page.
+Besides [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/DefaultExtractor.html DefaultExtractor] there are [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/BoilerpipeExtractor.html other extractors] that may be more suitable for particular content scenarios. For example, [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/ArticleExtractor.html ArticleExtractor] adds some heuristics to extract the main content from a news page.
 
 There are also [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/ExtractorBase.html other ways] to call the Extractor (using `Reader`, `InputSource`, `String` etc.).
 
