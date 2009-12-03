@@ -10,3 +10,7 @@ Boilerpipe consists of the following components:
   # an HTML highlighter to visually inspect the extracted main content within a copy of the input page.
 
 = To be continued... =
+
+= Algorithmic Background =
+
+To understand why boilerpipe works read the paper "[http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Boilerplate Detection using Shallow Text Features]" by Christian Kohlschütter et al., presented at WSDM 2010 -- The Third ACM International Conference on Web Search and Data Mining New York City, NY USA.
