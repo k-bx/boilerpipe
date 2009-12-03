@@ -1,0 +1,11 @@
+#summary Frequently Asked Questions
+
+= Will it work with any web page? =
+
+Probably not. But you should give it a try. The algorithms used in Boilerpipe should be quite content-independent.
+
+Please make sure that you first try with English text, preferably from News or Blog sites (the algorithms have been trained on such data). Then attempt to extract text from other sources and see how it goes. If you extract non-English text you might need to change some parameters (this is not yet automatized). See the [WSDM2010Paper WSDM 2010 paper] for details.
+
+If your page is really short, i.e. it contains few words (or just one sentence per paragraph etc.), you might get worse results than for longer ones.
+
+If your page does not contain sufficient HTML text (i.e., PDF, Flash or JavaScript), there is nothing Boilerpipe can do about it at the moment. Try converting the output to HTML or `TextDocument`s and feed it to a Boilerpipe extractor.
