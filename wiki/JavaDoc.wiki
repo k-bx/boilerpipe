@@ -1,0 +1,5 @@
+#summary Boilerpipe API Documentation (Javadoc)
+
+= Boilerpipe Javadocs =
+
+The Javadocs for Boilerpipe 1.0 [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/index.html can be found here].
