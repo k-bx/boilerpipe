@@ -23,3 +23,7 @@ Besides [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/
 There are also [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/de/l3s/boilerpipe/extractors/ExtractorBase.html other ways] to call the Extractor (using `Reader`, `InputSource`, `String` etc.).
 
 See the [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/index.html API Javadocs] for details.
+
+= Customizing =
+
+You are invited to improve, customize and extend Boilerpipe. See here for details on [Components how the boilerpipe components work together].
