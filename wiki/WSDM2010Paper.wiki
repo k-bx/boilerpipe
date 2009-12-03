@@ -4,7 +4,7 @@
 
   _Christian Kohlschütter, Peter Fankhauser and Wolfgang Nejdl_
 
-  [http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Boilerplate Detection using Shallow Text Features]`
+  [http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Boilerplate Detection using Shallow Text Features]
 
   [http://www.wsdm-conference.org/2010/ WSDM 2010] -- The Third ACM International Conference on Web Search and Data Mining New York City, NY USA.
 
