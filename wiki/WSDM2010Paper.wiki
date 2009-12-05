@@ -2,7 +2,7 @@
 
 = Boilerplate Detection using Shallow Text Features =
 
-  _Christian Kohlschütter, Peter Fankhauser and Wolfgang Nejdl_
+  _[http://www.l3s.de/~kohlschuetter Christian Kohlschütter], [http://www.l3s.de/web/page15g.do?link=oln6g.redirect&alt1g=page32g&kcond1g.userOID=795 Peter Fankhauser] and [http://www.kbs.uni-hannover.de/~nejdl/ Wolfgang Nejdl]_
 
   [http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Boilerplate Detection using Shallow Text Features]
 
