@@ -9,3 +9,17 @@ Please make sure that you first try with English text, preferably from News or B
 If your page is really short, i.e. it contains few words (or just one sentence per paragraph etc.), you might get worse results than for longer ones.
 
 If your page does not contain sufficient HTML text (i.e., PDF, Flash or JavaScript), there is nothing Boilerpipe can do about it at the moment. Try converting the output to HTML or `TextDocument`s and feed it to a Boilerpipe extractor.
+
+= It does not work for page _X_ =
+
+== Parsing Problems? ==
+
+Don't get frustrated -- maybe it is just an HTML parsing problem. Such problems are caused by bad HTML, which the upstream NekoHTML parser library is supposed to fix for boilerpipe. Unfortunately it does not always work out (e.g., for [http://abclocal.go.com/kgo/story?section=news/national_world&id=7153024 this page]).
+
+In this case, try to clean the URL's HTML code before sending it to boilerpipe. If it then works, it is probably a bug in NekoHTML. If you have Firefox with the [https://addons.mozilla.org/de/firefox/addon/60 Web Developer Extension], you just need to click on "View Generated Source" and save that HTML to disk.
+
+In the case of this [http://abclocal.go.com/kgo/story?section=news/national_world&id=7153024 this ABC page] it was sufficient to add a missing `</DIV>` tag.
+
+== Still not working ==
+
+Please file an [http://code.google.com/p/boilerpipe/issues/list issue] with all necessary information (e.g., URL information and type of error). If possible please also attach the HTML in question.
