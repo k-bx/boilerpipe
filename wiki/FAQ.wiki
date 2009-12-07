@@ -20,6 +20,8 @@ In this case, try to clean the URL's HTML code before sending it to boilerpipe. 
 
 In the case of this [http://abclocal.go.com/kgo/story?section=news/national_world&id=7153024 this ABC page] it was sufficient to add a missing `</DIV>` tag. The problem has not yet been resolved in NekoHTML, see [https://sourceforge.net/tracker/?func=detail&atid=952178&aid=2909310&group_id=195122 NekoHTML Bug #2909310] for progress. _(Thanks to Kris Jirapinyo for sending me the page in question)_
 
+Until the bug in NekoHTML has been resolved, please make sure that you feed clean HTML into Boilerpipe.
+
 == Still not working ==
 
 Please file an [http://code.google.com/p/boilerpipe/issues/list issue] with all necessary information (e.g., URL information and type of error). If possible please also attach the HTML in question.
