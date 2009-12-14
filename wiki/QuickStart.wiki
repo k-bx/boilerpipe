@@ -32,10 +32,16 @@ See the [http://boilerpipe.googlecode.com/svn/trunk/boilerpipe-core/javadoc/1.0/
 
 To work with the source, please either check out a version from the [http://code.google.com/p/boilerpipe/source/checkout SVN repository] or download the tarballs of the latest release. In the latter case, you will need both the binary and the source tarball, since the binary contains the dependency libraries. Just extract them into the same directory.
 
-To build a jar from the sources just run the `build.xml` ant script:
+To build the distribution jars and archives from the sources just run the `build.xml` ant script:
 {{{
    ant
 }}}
+
+To just build the jar files run
+{{{
+   ant jars
+}}}
+
 
 = Customizing =
 
