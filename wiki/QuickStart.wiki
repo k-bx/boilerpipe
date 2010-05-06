@@ -42,6 +42,12 @@ To just build the jar files run
    ant jars
 }}}
 
+= Maven Repository =
+
+You may download the jar from my local [http://boilerpipe.googlecode.com/svn/repo/ Maven Repository]:
+{{{
+http://boilerpipe.googlecode.com/svn/repo/
+}}}
 
 = Customizing =
 
