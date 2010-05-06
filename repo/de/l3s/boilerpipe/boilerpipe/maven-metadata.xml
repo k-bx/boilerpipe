@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.l3s.boilerpipe</groupId>
+  <artifactId>boilerpipe</artifactId>
+  <version>1.0.4</version>
+  <versioning>
+    <versions>
+      <version>1.0.4</version>
+    </versions>
+    <lastUpdated>20100506201214</lastUpdated>
+  </versioning>
+</metadata>
