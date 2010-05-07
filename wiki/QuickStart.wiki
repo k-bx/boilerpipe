@@ -5,10 +5,12 @@
   # Get a binary and optionally also the source tarball from the [http://code.google.com/p/boilerpipe/downloads/list Downloads page]
   # Extract the files somewhere
 {{{
-    tar xvzf boilerpipe-1.0.2-bin.tar.gz
-    tar xvzf boilerpipe-1.0.2-src.tar.gz
+    tar xvzf boilerpipe-VERSION-bin.tar.gz
+    tar xvzf boilerpipe-VERSION-src.tar.gz
 }}}
-  # Add `boilerpipe-1.0.jar`, `nekohtml-1.9.13.jar` and `xerces-2.9.1.jar` to your Java classpath (these jar files are included in the binary tarball).
+  # Add `boilerpipe-VERSION.jar`, `nekohtml-1.9.13.jar` and `xerces-2.9.1.jar` to your Java classpath (these jar files are included in the binary tarball).
+
+  (Whereas VERSION needs to be replaced by boilerpipe's version number, e.g. `1.0.3`).
 
 = Usage =
 
