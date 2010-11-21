@@ -14,3 +14,4 @@ More Information about the paper and the L3S-GN1 dataset used in the paper [http
 
 http://videolectures.net/wsdm2010_kohlschutter_bdu/thumb.jpg
 [http://videolectures.net/wsdm2010_kohlschutter_bdu/ Presentation on Videolectures.net]
+(turn speaker balance to the left to improve audio quality)
