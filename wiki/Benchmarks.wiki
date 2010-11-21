@@ -1,0 +1,9 @@
+#summary Some Benchmarks
+
+= Extraction Quality =
+
+Using the [http://www.l3s.de/~kohlschuetter/boilerplate/ L3S-GN1 dataset] (news articles crawled from Google News), boilerpipe achieves a much higher accuracy than the competition:
+
+http://boilerpipe.googlecode.com/svn/wiki/googlenews-fmeasures-boilerpipe.png
+
+See my paper [http://www.l3s.de/~kohlschuetter/boilerplate/ Boilerplate Detection using Shallow Text Features] for details.
