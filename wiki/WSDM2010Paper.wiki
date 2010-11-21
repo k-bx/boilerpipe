@@ -11,3 +11,6 @@
 `[`[http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Download pre-print PDF]`]` [http://www.l3s.de/~kohlschuetter/publications/wsdm187-kohlschuetter.pdf Boilerplate Detection using Shallow Text Features]
 
 More Information about the paper and the L3S-GN1 dataset used in the paper [http://www.l3s.de/~kohlschuetter/boilerplate can be found here]
+
+http://videolectures.net/wsdm2010_kohlschutter_bdu/thumb.jpg
+[http://videolectures.net/wsdm2010_kohlschutter_bdu/ Presentation on Videolectures.net]
