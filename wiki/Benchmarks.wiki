@@ -6,4 +6,6 @@ Using the [http://www.l3s.de/~kohlschuetter/boilerplate/ L3S-GN1 dataset] (news 
 
 http://boilerpipe.googlecode.com/svn/wiki/googlenews-fmeasures-boilerpipe.png
 
+The figure depicts the F1 score (harmonized mean between precision and recall) at token-level (i.e. every correctly/incorrectly classified word/token is taken into account). As you can see, there are pages in the dataset which result in 100% correct results and some with results close to 0%. The higher the curve is to the top-right corner, the better.
+
 See my paper [http://www.l3s.de/~kohlschuetter/boilerplate/ Boilerplate Detection using Shallow Text Features] for details.
