@@ -1,9 +1,9 @@
 de.l3s.boilerpipe
-de.l3s.boilerpipe.boilers
 de.l3s.boilerpipe.conditions
 de.l3s.boilerpipe.document
 de.l3s.boilerpipe.estimators
 de.l3s.boilerpipe.extractors
+de.l3s.boilerpipe.filters.debug
 de.l3s.boilerpipe.filters.english
 de.l3s.boilerpipe.filters.heuristics
 de.l3s.boilerpipe.filters.simple

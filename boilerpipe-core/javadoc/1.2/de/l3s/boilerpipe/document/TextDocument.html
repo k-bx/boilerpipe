@@ -1,404 +1,445 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<!--NewPage-->
-<HTML>
-<HEAD>
+<!-- NewPage -->
+<html lang="uk">
+<head>
 
-<TITLE>
-TextDocument (1.2 API)
-</TITLE>
-
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=utf-8"
-
-<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
-
-<SCRIPT type="text/javascript">
-function windowTitle()
-{
-    if (location.href.indexOf('is-external=true') == -1) {
-        parent.document.title="TextDocument (1.2 API)";
+<title>TextDocument (1.2 API)</title>
+<meta name="date" content="2015-03-24">
+<link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+<script type="text/javascript" src="../../../../script.js"></script>
+</head>
+<body>
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="TextDocument (1.2 API)";
+        }
     }
-}
-</SCRIPT>
-<NOSCRIPT>
-</NOSCRIPT>
-
-</HEAD>
-
-<BODY BGCOLOR="white" onload="windowTitle();">
-<HR>
-
-
+    catch(err) {
+    }
+//-->
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10};
+var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
+var altColor = "altColor";
+var rowColor = "rowColor";
+var tableTab = "tableTab";
+var activeTableTab = "activeTableTab";
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
 <!-- ========= START OF TOP NAVBAR ======= -->
-<A NAME="navbar_top"><!-- --></A>
-<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
-<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
-<TR>
-<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
-<A NAME="navbar_top_firstrow"><!-- --></A>
-<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
-  <TR ALIGN="center" VALIGN="top">
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/TextDocument.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../index-all.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
-  </TR>
-</TABLE>
-</TD>
-<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
-</EM>
-</TD>
-</TR>
-
-<TR>
-<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
-&nbsp;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><B>PREV CLASS</B></A>&nbsp;
-&nbsp;<A HREF="../../../../de/l3s/boilerpipe/document/TextDocumentStatistics.html" title="class in de.l3s.boilerpipe.document"><B>NEXT CLASS</B></A></FONT></TD>
-<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
-  <A HREF="../../../../index.html?de/l3s/boilerpipe/document/TextDocument.html" target="_top"><B>FRAMES</B></A>  &nbsp;
-&nbsp;<A HREF="TextDocument.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
-&nbsp;<SCRIPT type="text/javascript">
-  <!--
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/TextDocument.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../../de/l3s/boilerpipe/document/TextDocumentStatistics.html" title="class in de.l3s.boilerpipe.document"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?de/l3s/boilerpipe/document/TextDocument.html" target="_top">Frames</a></li>
+<li><a href="TextDocument.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
   if(window==top) {
-    document.writeln('<A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>');
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
   }
   //-->
-</SCRIPT>
-<NOSCRIPT>
-  <A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>
-</NOSCRIPT>
-
-
-</FONT></TD>
-</TR>
-<TR>
-<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
-  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
-<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
-DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
-</TR>
-</TABLE>
-<A NAME="skip-navbar_top"></A>
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.top">
+<!--   -->
+</a></div>
 <!-- ========= END OF TOP NAVBAR ========= -->
-
-<HR>
 <!-- ======== START OF CLASS DATA ======== -->
-<H2>
-<FONT SIZE="-1">
-de.l3s.boilerpipe.document</FONT>
-<BR>
-Class TextDocument</H2>
-<PRE>
-java.lang.Object
-  <IMG SRC="../../../../resources/inherit.gif" ALT="extended by "><B>de.l3s.boilerpipe.document.TextDocument</B>
-</PRE>
-<HR>
-<DL>
-<DT><PRE>public class <B>TextDocument</B><DT>extends java.lang.Object</DL>
-</PRE>
-
-<P>
-A text document, consisting of one or more <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s.
-<P>
-
-<P>
-<DL>
-<DT><B>Author:</B></DT>
-  <DD>Christian Kohlschütter</DD>
-</DL>
-<HR>
-
-<P>
-
+<div class="header">
+<div class="subTitle">de.l3s.boilerpipe.document</div>
+<h2 title="Class TextDocument" class="title">Class TextDocument</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li>de.l3s.boilerpipe.document.TextDocument</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>java.lang.Cloneable</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">TextDocument</span>
+extends java.lang.Object
+implements java.lang.Cloneable</pre>
+<div class="block">A text document, consisting of one or more <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s.</div>
+<dl>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Christian Kohlschütter</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-
-<A NAME="constructor_summary"><!-- --></A>
-<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
-<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
-<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
-<B>Constructor Summary</B></FONT></TH>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#TextDocument(java.util.List)">TextDocument</A></B>(java.util.List&lt;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</A>&gt;&nbsp;textBlocks)</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A> with given <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s, and no
- title.</TD>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#TextDocument(java.lang.String, java.util.List)">TextDocument</A></B>(java.lang.String&nbsp;title,
-             java.util.List&lt;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</A>&gt;&nbsp;textBlocks)</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A> with given <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s and
- given title.</TD>
-</TR>
-</TABLE>
-&nbsp;
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#TextDocument-java.util.List-">TextDocument</a></span>(java.util.List&lt;<a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</a>&gt;&nbsp;textBlocks)</code>
+<div class="block">Creates a new <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a> with given <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s, and no
+ title.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#TextDocument-java.lang.String-java.util.List-">TextDocument</a></span>(java.lang.String&nbsp;title,
+            java.util.List&lt;<a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</a>&gt;&nbsp;textBlocks)</code>
+<div class="block">Creates a new <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a> with given <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s and
+ given title.</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
 <!-- ========== METHOD SUMMARY =========== -->
-
-<A NAME="method_summary"><!-- --></A>
-<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
-<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
-<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
-<B>Method Summary</B></FONT></TH>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#debugString()">debugString</A></B>()</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns detailed debugging information about the contained <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s.</TD>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#getContent()">getContent</A></B>()</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A>'s content.</TD>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#getText(boolean, boolean)">getText</A></B>(boolean&nbsp;includeContent,
-        boolean&nbsp;includeNonContent)</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A>'s content, non-content or both</TD>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;java.util.List&lt;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</A>&gt;</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#getTextBlocks()">getTextBlocks</A></B>()</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s of this document.</TD>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#getTitle()">getTitle</A></B>()</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the "main" title for this document, or <code>null</code> if no
- such title has ben set.</TD>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html#setTitle(java.lang.String)">setTitle</A></B>(java.lang.String&nbsp;title)</CODE>
-
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updates the "main" title for this document.</TD>
-</TR>
-</TABLE>
-&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
-<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
-<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
-<TH ALIGN="left"><B>Methods inherited from class java.lang.Object</B></TH>
-</TR>
-<TR BGCOLOR="white" CLASS="TableRowColor">
-<TD><CODE>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</CODE></TD>
-</TR>
-</TABLE>
-&nbsp;
-<P>
-
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document">TextDocument</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#clone--">clone</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#debugString--">debugString</a></span>()</code>
+<div class="block">Returns detailed debugging information about the contained <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s.</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#getContent--">getContent</a></span>()</code>
+<div class="block">Returns the <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a>'s content.</div>
+</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#getText-boolean-boolean-">getText</a></span>(boolean&nbsp;includeContent,
+       boolean&nbsp;includeNonContent)</code>
+<div class="block">Returns the <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a>'s content, non-content or both</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>java.util.List&lt;<a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#getTextBlocks--">getTextBlocks</a></span>()</code>
+<div class="block">Returns the <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s of this document.</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#getTitle--">getTitle</a></span>()</code>
+<div class="block">Returns the "main" title for this document, or <code>null</code> if no
+ such title has ben set.</div>
+</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../de/l3s/boilerpipe/document/TextDocument.html#setTitle-java.lang.String-">setTitle</a></span>(java.lang.String&nbsp;title)</code>
+<div class="block">Updates the "main" title for this document.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
 <!-- ========= CONSTRUCTOR DETAIL ======== -->
-
-<A NAME="constructor_detail"><!-- --></A>
-<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
-<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
-<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
-<B>Constructor Detail</B></FONT></TH>
-</TR>
-</TABLE>
-
-<A NAME="TextDocument(java.util.List)"><!-- --></A><H3>
-TextDocument</H3>
-<PRE>
-public <B>TextDocument</B>(java.util.List&lt;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</A>&gt;&nbsp;textBlocks)</PRE>
-<DL>
-<DD>Creates a new <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A> with given <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s, and no
- title.
-<P>
-<DL>
-<DT><B>Parameters:</B><DD><CODE>textBlocks</CODE> - The text blocks of this document.</DL>
-</DL>
-<HR>
-
-<A NAME="TextDocument(java.lang.String, java.util.List)"><!-- --></A><H3>
-TextDocument</H3>
-<PRE>
-public <B>TextDocument</B>(java.lang.String&nbsp;title,
-                    java.util.List&lt;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</A>&gt;&nbsp;textBlocks)</PRE>
-<DL>
-<DD>Creates a new <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A> with given <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s and
- given title.
-<P>
-<DL>
-<DT><B>Parameters:</B><DD><CODE>title</CODE> - The "main" title for this text document.<DD><CODE>textBlocks</CODE> - The text blocks of this document.</DL>
-</DL>
-
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="TextDocument-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>TextDocument</h4>
+<pre>public&nbsp;TextDocument(java.util.List&lt;<a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</a>&gt;&nbsp;textBlocks)</pre>
+<div class="block">Creates a new <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a> with given <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s, and no
+ title.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>textBlocks</code> - The text blocks of this document.</dd>
+</dl>
+</li>
+</ul>
+<a name="TextDocument-java.lang.String-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>TextDocument</h4>
+<pre>public&nbsp;TextDocument(java.lang.String&nbsp;title,
+                    java.util.List&lt;<a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</a>&gt;&nbsp;textBlocks)</pre>
+<div class="block">Creates a new <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a> with given <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s and
+ given title.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>title</code> - The "main" title for this text document.</dd>
+<dd><code>textBlocks</code> - The text blocks of this document.</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
 <!-- ============ METHOD DETAIL ========== -->
-
-<A NAME="method_detail"><!-- --></A>
-<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
-<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
-<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
-<B>Method Detail</B></FONT></TH>
-</TR>
-</TABLE>
-
-<A NAME="getTextBlocks()"><!-- --></A><H3>
-getTextBlocks</H3>
-<PRE>
-public java.util.List&lt;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</A>&gt; <B>getTextBlocks</B>()</PRE>
-<DL>
-<DD>Returns the <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s of this document.
-<P>
-<DD><DL>
-
-<DT><B>Returns:</B><DD>A list of <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s, in sequential order of appearance.</DL>
-</DD>
-</DL>
-<HR>
-
-<A NAME="getTitle()"><!-- --></A><H3>
-getTitle</H3>
-<PRE>
-public java.lang.String <B>getTitle</B>()</PRE>
-<DL>
-<DD>Returns the "main" title for this document, or <code>null</code> if no
- such title has ben set.
-<P>
-<DD><DL>
-
-<DT><B>Returns:</B><DD>The "main" title.</DL>
-</DD>
-</DL>
-<HR>
-
-<A NAME="setTitle(java.lang.String)"><!-- --></A><H3>
-setTitle</H3>
-<PRE>
-public void <B>setTitle</B>(java.lang.String&nbsp;title)</PRE>
-<DL>
-<DD>Updates the "main" title for this document.
-<P>
-<DD><DL>
-<DT><B>Parameters:</B><DD><CODE>title</CODE> - </DL>
-</DD>
-</DL>
-<HR>
-
-<A NAME="getContent()"><!-- --></A><H3>
-getContent</H3>
-<PRE>
-public java.lang.String <B>getContent</B>()</PRE>
-<DL>
-<DD>Returns the <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A>'s content.
-<P>
-<DD><DL>
-
-<DT><B>Returns:</B><DD>The content text.</DL>
-</DD>
-</DL>
-<HR>
-
-<A NAME="getText(boolean, boolean)"><!-- --></A><H3>
-getText</H3>
-<PRE>
-public java.lang.String <B>getText</B>(boolean&nbsp;includeContent,
-                                boolean&nbsp;includeNonContent)</PRE>
-<DL>
-<DD>Returns the <A HREF="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><CODE>TextDocument</CODE></A>'s content, non-content or both
-<P>
-<DD><DL>
-<DT><B>Parameters:</B><DD><CODE>includeContent</CODE> - Whether to include TextBlocks marked as "content".<DD><CODE>includeNonContent</CODE> - Whether to include TextBlocks marked as "non-content".
-<DT><B>Returns:</B><DD>The text.</DL>
-</DD>
-</DL>
-<HR>
-
-<A NAME="debugString()"><!-- --></A><H3>
-debugString</H3>
-<PRE>
-public java.lang.String <B>debugString</B>()</PRE>
-<DL>
-<DD>Returns detailed debugging information about the contained <A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><CODE>TextBlock</CODE></A>s.
-<P>
-<DD><DL>
-
-<DT><B>Returns:</B><DD>Debug information.</DL>
-</DD>
-</DL>
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getTextBlocks--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getTextBlocks</h4>
+<pre>public&nbsp;java.util.List&lt;<a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document">TextBlock</a>&gt;&nbsp;getTextBlocks()</pre>
+<div class="block">Returns the <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s of this document.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>A list of <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s, in sequential order of appearance.</dd>
+</dl>
+</li>
+</ul>
+<a name="getTitle--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getTitle</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getTitle()</pre>
+<div class="block">Returns the "main" title for this document, or <code>null</code> if no
+ such title has ben set.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The "main" title.</dd>
+</dl>
+</li>
+</ul>
+<a name="setTitle-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setTitle</h4>
+<pre>public&nbsp;void&nbsp;setTitle(java.lang.String&nbsp;title)</pre>
+<div class="block">Updates the "main" title for this document.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>title</code> - </dd>
+</dl>
+</li>
+</ul>
+<a name="getContent--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getContent</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getContent()</pre>
+<div class="block">Returns the <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a>'s content.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The content text.</dd>
+</dl>
+</li>
+</ul>
+<a name="getText-boolean-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getText</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getText(boolean&nbsp;includeContent,
+                                boolean&nbsp;includeNonContent)</pre>
+<div class="block">Returns the <a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document"><code>TextDocument</code></a>'s content, non-content or both</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>includeContent</code> - Whether to include TextBlocks marked as "content".</dd>
+<dd><code>includeNonContent</code> - Whether to include TextBlocks marked as "non-content".</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The text.</dd>
+</dl>
+</li>
+</ul>
+<a name="debugString--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>debugString</h4>
+<pre>public&nbsp;java.lang.String&nbsp;debugString()</pre>
+<div class="block">Returns detailed debugging information about the contained <a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><code>TextBlock</code></a>s.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>Debug information.</dd>
+</dl>
+</li>
+</ul>
+<a name="clone--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>clone</h4>
+<pre>public&nbsp;<a href="../../../../de/l3s/boilerpipe/document/TextDocument.html" title="class in de.l3s.boilerpipe.document">TextDocument</a>&nbsp;clone()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code>clone</code>&nbsp;in class&nbsp;<code>java.lang.Object</code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 <!-- ========= END OF CLASS DATA ========= -->
-<HR>
-
-
 <!-- ======= START OF BOTTOM NAVBAR ====== -->
-<A NAME="navbar_bottom"><!-- --></A>
-<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
-<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
-<TR>
-<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
-<A NAME="navbar_bottom_firstrow"><!-- --></A>
-<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
-  <TR ALIGN="center" VALIGN="top">
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/TextDocument.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../index-all.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
-  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
-  </TR>
-</TABLE>
-</TD>
-<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
-</EM>
-</TD>
-</TR>
-
-<TR>
-<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
-&nbsp;<A HREF="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><B>PREV CLASS</B></A>&nbsp;
-&nbsp;<A HREF="../../../../de/l3s/boilerpipe/document/TextDocumentStatistics.html" title="class in de.l3s.boilerpipe.document"><B>NEXT CLASS</B></A></FONT></TD>
-<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
-  <A HREF="../../../../index.html?de/l3s/boilerpipe/document/TextDocument.html" target="_top"><B>FRAMES</B></A>  &nbsp;
-&nbsp;<A HREF="TextDocument.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
-&nbsp;<SCRIPT type="text/javascript">
-  <!--
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/TextDocument.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../de/l3s/boilerpipe/document/TextBlock.html" title="class in de.l3s.boilerpipe.document"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../../de/l3s/boilerpipe/document/TextDocumentStatistics.html" title="class in de.l3s.boilerpipe.document"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?de/l3s/boilerpipe/document/TextDocument.html" target="_top">Frames</a></li>
+<li><a href="TextDocument.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
   if(window==top) {
-    document.writeln('<A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>');
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
   }
   //-->
-</SCRIPT>
-<NOSCRIPT>
-  <A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>
-</NOSCRIPT>
-
-
-</FONT></TD>
-</TR>
-<TR>
-<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
-  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
-<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
-DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
-</TR>
-</TABLE>
-<A NAME="skip-navbar_bottom"></A>
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.bottom">
+<!--   -->
+</a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-
-<HR>
-
-</BODY>
-</HTML>
+</body>
+</html>
